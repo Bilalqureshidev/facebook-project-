@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-body">
+
+    <div class="facebook-logo">facebook</div>
+
+    <div class="login-box">
+        <h2>Log in to Facebook</h2>
+
+        <form action="dashboard.html">
+            <input type="text" placeholder="Email address or phone number" required>
+
+            <input type="password" placeholder="Password" required>
+
+            <button type="submit" class="login-btn">Log In</button>
+        </form>
+
+        <a href="#" class="forgot">Forgotten password?</a>
+
+        <div class="line"></div>
+
+        <a href="signup.html" class="create-btn">Create new account</a>
+    </div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-body">
+
+    <div class="facebook-logo">facebook</div>
+
+    <div class="signup-box">
+
+        <h1>Create a new account</h1>
+        <p class="subtitle">It's quick and easy.</p>
+
+        <div class="line"></div>
+
+        <form action="dashboard.html">
+
+            <div class="name-row">
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="Surname" required>
+            </div>
+
+            <input type="email" placeholder="Mobile number or email" required>
+
+            <input type="password" placeholder="New password" required>
+
+            <label class="label">Date of birth</label>
+
+            <div class="dob-row">
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+
+                <select>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>Jul</option>
+                    <option>Aug</option>
+                    <option>Sep</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Dec</option>
+                </select>
+
+                <select>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                </select>
+            </div>
+
+            <label class="label">Gender</label>
+
+            <div class="gender-row">
+                <label>
+                    Female
+                    <input type="radio" name="gender">
+                </label>
+
+                <label>
+                    Male
+                    <input type="radio" name="gender">
+                </label>
+
+                <label>
+                    Custom
+                    <input type="radio" name="gender">
+                </label>
+            </div>
+
+            <p class="terms">
+                By clicking Sign Up, you agree to our Terms, Privacy Policy
+                and Cookies Policy.
+            </p>
+
+            <button type="submit" class="signup-btn">Sign Up</button>
+
+        </form>
+
+        <a href="login.html" class="already">Already have an account?</a>
+
+    </div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-body">
+
+    <header class="topbar">
+
+        <div class="top-left">
+            <div class="small-logo">f</div>
+
+            <input type="text" class="search" placeholder="Search Facebook">
+        </div>
+
+        <nav class="nav-icons">
+            <a href="#">⌂</a>
+            <a href="#">👥</a>
+            <a href="#">▶</a>
+            <a href="#">🛒</a>
+            <a href="#">🔔</a>
+            <a href="#">☰</a>
+        </nav>
+
+    </header>
+
+    <main class="dashboard">
+
+        <aside class="sidebar">
+
+            <div class="profile">
+                <div class="profile-pic">B</div>
+                <strong>Bilal Qureshi</strong>
+            </div>
+
+            <div class="side-item">👥 Friends</div>
+            <div class="side-item">🕘 Memories</div>
+            <div class="side-item">📌 Saved</div>
+            <div class="side-item">👨‍👩‍👧 Groups</div>
+            <div class="side-item">🛒 Marketplace</div>
+            <div class="side-item">📺 Watch</div>
+
+        </aside>
+
+
+        <section class="feed">
+
+            <div class="stories">
+
+                <div class="story">
+                    <div class="story-image">+</div>
+                    <span>Create Story</span>
+                </div>
+
+                <div class="story">
+                    <div class="story-image">B</div>
+                    <span>Bilal</span>
+                </div>
+
+                <div class="story">
+                    <div class="story-image">A</div>
+                    <span>Ahmed</span>
+                </div>
+
+                <div class="story">
+                    <div class="story-image">S</div>
+                    <span>Saad</span>
+                </div>
+
+            </div>
+
+
+            <div class="create-post">
+
+                <div class="post-top">
+
+                    <div class="profile-pic">B</div>
+
+                    <input type="text"
+                           placeholder="What's on your mind, Bilal?">
+
+                </div>
+
+                <div class="post-options">
+                    <span>🔴 Live Video</span>
+                    <span>🖼️ Photo/Video</span>
+                    <span>😊 Feeling/Activity</span>
+                </div>
+
+            </div>
+
+
+            <div class="post">
+
+                <div class="post-header">
+
+                    <div class="profile-pic">B</div>
+
+                    <div>
+                        <strong>Bilal Qureshi</strong>
+                        <p>Just now · 🌎</p>
+                    </div>
+
+                </div>
+
+                <p class="post-text">
+                    Welcome to my Facebook project!
+                </p>
+
+                <div class="post-image">
+                    Facebook Post
+                </div>
+
+                <div class="post-stats">
+                    👍 ❤️ 120 Likes &nbsp;&nbsp; 25 Comments
+                </div>
+
+                <div class="post-actions">
+                    <button>👍 Like</button>
+                    <button>💬 Comment</button>
+                    <button>↗ Share</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <aside class="right-sidebar">
+
+            <h3>Contacts</h3>
+
+            <div class="contact">
+                <span class="online"></span>
+                Ahmed Khan
+            </div>
+
+            <div class="contact">
+                <span class="online"></span>
+                Saad Ahmed
+            </div>
+
+            <div class="contact">
+                <span class="online"></span>
+                Ali Raza
+            </div>
+
+            <div class="contact">
+                <span class="online"></span>
+                Hamza
+            </div>
+
+        </aside>
+
+    </main>
+
+</body>
+</html>
